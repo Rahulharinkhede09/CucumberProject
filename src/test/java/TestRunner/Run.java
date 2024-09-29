@@ -4,8 +4,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = ".//Features/LoginOrangeHRM.feature",
-		//features = {".//Features/PIM_Add_Employee.feature",".//Features/Valid_Invalid_Credetial.feature"},
+		features = ".//Features/PIM_Add_Employee.feature",
+		//features = {".//Features/PIM_Add_Employee.feature",".//Features/Valid_Invalid_Credetial.feature",".//Features/LoginOrangeHRM.feature"},
 		glue = "StepDefination",
 		dryRun = false,
 		monochrome = true,
