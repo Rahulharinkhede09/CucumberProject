@@ -11,7 +11,7 @@ import Utilities.ReadConfig;
 
 //Parent Class
 public class BaseClassT {
-	public String OrangeUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
+	public String OrangeUrl = "https://opensource-demo.orangehrmlive.com/auth/login";
 	public WebDriver driver;
 	public LoginPage obj;
 	public static Logger log;
